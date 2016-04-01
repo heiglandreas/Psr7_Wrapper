@@ -1,0 +1,24 @@
+{
+    "name": "org_heigl/psr7wrapper",
+    "description": "Wrap Request/Response-Objects from different frameworks into a PSR7-compliant envelope",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Heigl",
+            "email": "andreas@heigl.org"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^1.0",
+        "league/uri": "^4.1"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Org_Heigl\\Psr7Wrapper\\" : "src/"
+        }
+    },
+    "require-dev": {
+        "zendframework/zendframework1": "^1.12"
+    }
+}
